@@ -12,6 +12,8 @@ function App() {
           <React.Suspense fallback={<p>Loading list...</p>}>
             <VeryBigJokesList />
           </React.Suspense>
+
+          {/* <VeryBigJokesList /> */}
         </div>
       </header>
     </div>
